@@ -1,0 +1,19 @@
+style {
+    h1
+            color:rgb(38, 114, 89);background-color: chartreuse; text-align: center; text-transform: uppercase;
+        }
+                    * {
+                background-color: rgb(38, 114, 89);
+                }
+                img {
+                    width: 30%; display: flex-start;
+                }
+                p {
+                    color:rgb(127, 255, 0); padding: 5px;
+                }
+                li {
+                  color:rgb(127, 255, 0); padding: 5px;
+                }
+                a {
+                  color:rgb(127, 255, 0); display: flex-end;
+                }
