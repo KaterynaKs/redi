@@ -6,7 +6,7 @@ style {
                 background-color: rgb(38, 114, 89);
                 }
                 img {
-                    width: 30%; display: flex-start;
+                    width: 30%; display: flex-start; float: right;
                 }
                 p {
                     color:rgb(127, 255, 0); padding: 5px;
