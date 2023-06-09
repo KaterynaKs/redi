@@ -1,52 +1,46 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="uk">
   <head>
     <meta charset="UTF-8">
-    <title>München</title>
-    <style>
-        h1 {
-            color:rgb(38, 114, 89);background-color: chartreuse; text-align: center; text-transform: uppercase;
-                    }
-        * {
-                background-color: rgb(38, 114, 89);
-                }
-                img {
-                    width: 50%; display: flex-start;
-                }
-                li {
-                  color:rgb(127, 255, 0); padding: 5px;
-                }
-                a {
-                  color:rgb(127, 255, 0); display: flex-end;
-                }
-                
-    </style>
-  </head>
+    <link rel="stylesheet" href="meunchen.css"/>
+    <title>Мюнхен для біженців</title>
+    
+</head>
   <body>
-    <h1>München</h1>
+    <h1>МЮНХЕН</h1>
+    <div class="block2">Щодня з України прибувають сотні людей до Мюнхена. Тут ви знайдете практичні
+        інструкції для вашого першого орієнтування в місті щодо допомоги та підтримки, діючі закони 
+        для громадян України та як зробити ваше перебування у Німеччини більш легким. Кожен біженець 
+        з України має пройти обов'язкову реєстрацію в Уряді Верхньої Баварія (die Regierung von Oberbayern).
+        Часто це робиться одразу по приїзду до міста. Якщо ви цього не зробили одразу, треба зареєструватися 
+        протягом 90 днів, тільки в цьому випадку ви можете отримати допомогу. Біженці реєструються за 
+        допомогою електронного листа за адресою: ukraine.regierung-oberbayern@reg-ob.bayern.de, в якому вони 
+        надають таку інформацію: ім'я, дата народження, адреса електронної пошти, номер телефону, адреса 
+        поточного житла та кількість членів родини, які приїхали разом з ними. Вони також повинні надіслати 
+        копію свого посвідчення особи. Біженці повинні якомога раніше зареєструвати своє місце проживання 
+        в Управлінні реєстрації громадян (Bürgerbüro). Якщо вони живуть у приватних квартирах, треба вказати 
+        адресу. Для цього треба записатися на онлайн прийом. Власники житла можуть допомогти заздалегідь, 
+        заповнивши та роздрукувавши підтвердження вашого проживання у своїй квартирі.</div>
+
     <ul>
-        <li>Sehenswürdigkeiten</li>
-        <li>Feiertage</li>
-        <li>Ausbildung</li>
+        <p>ДОПОМОГА З БАГАТЬОХ ПИТАНЬ:</p>
+        <li>Пам'ятки</li>
+        <li>Новини</li>
+        <li>Підтвердження дипломів</li>
+        <li>Робота</li>
+        <li>Життя</li>
+        <li>Житло</li>
+        <a href="https://www.muenchen.de/">Для ознайомлення з цими питаннями перейдіть за посиланням: www.münchen.de</a>
     </ul>
-    <img src="https://wantsee.world/wp-content/uploads/2019/05/Munich-Germany.jpg">
-    <div>
-      <a href="https://www.muenchen.de/">München</a>
+        <img src="https://wantsee.world/wp-content/uploads/2019/05/Munich-Germany.jpg">
+        <div class="block1">
+     <button onclick="wetter()">ПОГОДА У МЮНХЕНІ</button>
+
     </div>
-    <p>Name München wird üblicherweise als „bei den Mönchen“ gedeutet. Erstmals erwähnt wird der Name als forum apud Munichen im Augsburger Schied vom 14. Juni 1158 von Kaiser Friedrich I. Munichen ist der Dativ Plural von althochdeutsch munih bzw. mittelhochdeutsch mün(e)ch, dem Vorläufer von neuhochdeutsch Mönch.
+    
+<h2>ПОТРЕБА У ДОПОМОЗІ</h2>
+<p>Якщо у вас виникли якісь питання, то для консультації заповніть, будь-ласка, анкету для зворотнього з'вязку.</p>
 
-Vor der Gründung der Stadt soll es hier eine Niederlassung von Mönchen gegeben haben. Dass diese, wie vielfach behauptet, auf dem Petersbergl lag, konnte bislang durch archäologische Funde nicht bestätigt werden. Nach einer anderen Hypothese lag die namensgebende Mönchsniederlassung (Klosterhof Schäftlarn) an der Stelle der heutigen Michaelskirche. Eine früher angenommene Verbindung zum Kloster Tegernsee gilt seit einiger Zeit als widerlegt.
-
-Es ist nicht sicher, ob bei der Gründung Münchens eine Mönchssiedlung bestand. Weiterhin ist es möglich, dass munichen bereits damals eine feststehende Ortsbezeichnung darstellte, die schon ihrerseits auf eine frühere, nicht mehr bestehende Mönchssiedlung zurückging. Vereinzelt wurde auch bezweifelt, dass der Name munichen überhaupt auf eine Mönchssiedlung hinweist.
-
-Der mittellateinische Name der Stadt ist Monacum, Adjektiv monacensis; auch Monachia bzw. Monachium sind bezeugt.
-
-München hat in anderen Sprachen unterschiedliche Bezeichnungen: So heißt die Stadt auf Französisch und Englisch Munich (in jeweils verschiedener Aussprache), auf Spanisch Múnich, auf Portugiesisch Munique, im Italienischen Monaco (di Baviera) („di Baviera“ zur Unterscheidung von Monaco im gleichnamigen Fürstentum), im Tschechischen Mnichov und im Polnischen Monachium.</p>
-
-<script>
-  function changeColor(){
-      document.querySelector('body').style.background = 'red';
-  }
-</script>      
+<script src="meunchen.js"></script>     
 </body>
 </html>
